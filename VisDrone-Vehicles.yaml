@@ -1,0 +1,17 @@
+path: /content/datasets/VisDroneVehicles  # dataset root dir
+train: VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
+val: VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
+test: VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
+
+nc: 8
+
+# Classes
+names:
+  0: bicycle
+  1: car
+  2: van
+  3: truck
+  4: tricycle
+  5: awning-tricycle
+  6: bus
+  7: motor
